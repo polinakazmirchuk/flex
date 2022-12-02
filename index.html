@@ -58,7 +58,7 @@
               gap: 100px 200px;
               flex-wrap: wrap;
               justify-content: center;
-              align-content: center;
+              align-items: center;
               width: 400px;
               height: 300px;
             }
@@ -72,18 +72,49 @@
       <div class="battle__name">Ex.3</div>
       <div class="battle__field">
         <div class="body__ex-3">
-          <!-- Your code here -->
+          <div class="body-3">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+          </div>
           <div class="div__ex-3"></div>
           <style>
-            .div__ex-3 {
-              background: #b5e0ba;
-              height: 200px;
-              width: 200px;
+            .body-3 {
+              width: 400px;
+              height: 300px;
+              background: #6592cf;
+              margin: 0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .box1 {
+              background: #243d83;
+              width: 300px;
+              height: 150px;
             }
 
-            .body__ex-3 {
-              background: #5d3a3a;
-              padding-top: 1px;
+            .box2 {
+              width: 250px;
+              height: 200px;
+              position: absolute;
+              background: #6592cf;
+              border-radius: 100px;
+            }
+            .box3 {
+              width: 150px;
+              height: 150px;
+              background: #243d83;
+              position: absolute;
+              border-radius: 100px;
+            }
+            .box4 {
+              height: 50px;
+              width: 50px;
+              background: #eeb850;
+              position: absolute;
+              border-radius: 100px;
             }
           </style>
         </div>
